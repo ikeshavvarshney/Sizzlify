@@ -1,0 +1,28 @@
+<svg width="220" height="80" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg" aria-label="Sizzilfy Logo">
+  <defs>
+    <linearGradient id="sizzilfyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3cac" />
+      <stop offset="50%" stop-color="#784ba0" />
+      <stop offset="100%" stop-color="#2b86c5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: filled circle with wave lines -->
+  <g>
+    <circle cx="50" cy="40" r="35" fill="url(#sizzilfyGradient)" />
+
+    <!-- Wave lines -->
+    <path d="M30 32 Q50 26, 70 32" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M33 40 Q50 35, 67 40" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M36 48 Q50 44, 64 48" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- Zs -->
+    <text x="70" y="28" transform="rotate(-10, 70, 28)" font-size="18" fill="white" font-family="Arial" font-weight="bold">Z</text>
+    <text x="80" y="18" transform="rotate(-15, 80, 18)" font-size="12" fill="white" font-family="Arial" font-weight="bold">Z</text>
+  </g>
+
+  <!-- Sizzilfy wordmark -->
+  <text x="100" y="55" font-size="36" font-family="Poppins, sans-serif" fill="url(#sizzilfyGradient)" font-weight="bold">
+    Sizzlify
+  </text>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Sizzilfy Icon">
+  <defs>
+    <linearGradient id="sizzilfyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3cac" />
+      <stop offset="50%" stop-color="#784ba0" />
+      <stop offset="100%" stop-color="#2b86c5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Filled circle -->
+  <circle cx="50" cy="50" r="35" fill="url(#sizzilfyGradient)" />
+
+  <!-- Custom wave lines -->
+  <path d="M30 42 Q50 36, 70 42" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M33 50 Q50 45, 67 50" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M36 58 Q50 54, 64 58" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Two 'Z's at the top-right of top wave -->
+  <text x="70" y="38" transform="rotate(-10, 70, 38)" font-size="18" fill="white" font-family="Arial" font-weight="bold">Z</text>
+  <text x="80" y="28" transform="rotate(-15, 80, 28)" font-size="12" fill="white" font-family="Arial" font-weight="bold">Z</text>
+</svg>

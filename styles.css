@@ -1,0 +1,88 @@
+header {
+    gap: 15px;
+    padding: 5px 0;
+}
+
+.nav {
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 120px;
+}
+
+.search {
+    gap: 10px;
+}
+
+.search button {
+    padding: 12px 12px;
+}
+
+.search-form {
+    width: 300px;
+    height: 48px;
+    padding: 12px 48px;
+    height: auto;
+    border-radius: var(--radius-full);
+    position: relative;
+}
+
+.search-form button {
+    position: absolute;
+    left: 0;
+    background: transparent;
+}
+
+.search-form .search-input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+    color: var(--text-primary);
+    font-size: 16px;
+}
+
+.search-form .search-input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-form .search-input:focus {
+    outline: none;
+}
+
+.links {
+    gap: 10px;
+    font-weight: 600;
+}
+
+.seperator {
+    background: #fff;
+    height: 25px;
+    margin: 16px;
+    width: 1px;
+}
+
+header a {
+    gap: 5px;
+    font-weight: 600;
+}
+
+.account a {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+}
+
+.account a:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.account .login {
+    background-color: #fff;
+    color: black;
+}
